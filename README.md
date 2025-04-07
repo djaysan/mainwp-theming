@@ -1,8 +1,9 @@
 # mainwp-theming
 MainWP is great tool - these customizations make it look the way you want
+
 Replace the logo:
 
-Just copy paste this PHP - the easy way is to instal WPCode snippet manager and add this as a PHP snippet and run it in 'admin area > admin header'
+Just copy paste this PHP - the easy way is to instal **WPCode snippet manager** and add this as a PHP snippet and run it in 'admin area > admin header'
 ````
 add_filter( 'mainwp_menu_logo_src', 'mainwp_custom_logo' ); 
 function mainwp_custom_logo() { 
@@ -14,7 +15,7 @@ return '/wp-content/uploads/2025/01/yoursquarelogo.png';
 
 To play with the colors:
 
-Just copy paste this CSS - the easy way is to instal WPCode snippet manager and add this as a CSS snippet and run it in 'admin area > admin header'
+Just copy paste this CSS - the easy way is to instal **WPCode snippet manager** and add this as a CSS snippet and run it in 'admin area > admin header'
 
 (Replace the color hex values from my code with yours)
 
